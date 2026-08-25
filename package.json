@@ -1,0 +1,27 @@
+{
+  "name": "clone_fest",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --hostname 0.0.0.0 --port 3080",
+    "build": "next build",
+    "start": "next start --hostname 0.0.0.0 --port 3080"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.17.4",
+    "@types/dompurify": "^3.0.5",
+    "@types/marked": "^5.0.2",
+    "@types/sqlite3": "^3.1.11",
+    "dompurify": "^3.4.14",
+    "marked": "^18.0.10",
+    "next": "16.3.1",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5"
+  }
+}
